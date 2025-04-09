@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dev-9</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>To-Do List</h2>
+    <div class="add-task">
+      <input type="text" placeholder="Add a new task..." />
+      <button class="add-btn">Add</button>
+    </div>
+    <div class="filters">
+      <button class="filter active">All</button>
+      <button class="filter">Active</button>
+      <button class="filter">Completed</button>
+    </div>
+    <ul class="task-list">
+      <li>
+        <input type="checkbox" />
+        <span>Review project proposal</span>
+        <button class="delete-btn">Delete</button>
+      </li>
+      <li class="completed">
+        <input type="checkbox" checked />
+        <span class="strike">Read security report</span>
+        <button class="delete-btn">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <span>Schedule team meeting</span>
+        <button class="delete-btn">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <span>Prepare presentation slides</span>
+        <button class="delete-btn">Delete</button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
