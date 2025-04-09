@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .resume {
+    background: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3498db;
+  }
+  h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .contact span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(52, 152, 219, 0.08);
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .job, .education {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f4f8fb;
+    border-radius: 4px;
+  }
+  .job-title, .edu-title {
+    color: #3498db;
+    font-weight: bold;
+  }
+  .company, .university {
+    color: #e74c3c;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .date {
+    float: right;
+    font-size: 12px;
+    color: #7f8c8d;
+  }
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .skills span {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.1);
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
